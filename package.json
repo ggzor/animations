@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "watch": "webpack --watch"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ggzor/animations.git"
