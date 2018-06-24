@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "strict": true,
+        "sourceMap": true,
+        "module": "es6",
+        "moduleResolution": "node",
+        "lib": [
+            "dom", "es6"
+        ],
+        "outDir": "./dist",
+        "target": "es2015"
+    },
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}

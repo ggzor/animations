@@ -1,0 +1,26 @@
+{
+  "name": "animations",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggzor/animations.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ggzor/animations/issues"
+  },
+  "homepage": "https://github.com/ggzor/animations#readme",
+  "devDependencies": {
+    "@types/animejs": "^2.0.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "ts-loader": "^4.4.1",
+    "typescript": "^2.9.2",
+    "webpack": "^4.12.1",
+    "webpack-cli": "^3.0.8"
+  }
+}
