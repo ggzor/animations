@@ -1,6 +1,8 @@
 const path = require('path');
 const glob = require('glob');
 
+var BitBarWebpackProgressPlugin = require('bitbar-webpack-progress-plugin');
+
 module.exports = {
     devtool: 'inline-source-map',
     entry: toObject(glob.sync("./src/*.ts")),
@@ -13,7 +15,10 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].js'
-    }
+    },
+    plugins: [
+        new BitBarWebpackProgressPlugin()
+    ]
 };
 
 function toObject(paths) {

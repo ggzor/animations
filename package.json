@@ -18,11 +18,14 @@
   },
   "homepage": "https://github.com/ggzor/animations#readme",
   "devDependencies": {
-    "@types/animejs": "^2.0.0",
-    "clean-webpack-plugin": "^0.1.19",
+    "@types/gsap": "1.19.2",
     "ts-loader": "^4.4.1",
     "typescript": "^2.9.2",
     "webpack": "^4.12.1",
-    "webpack-cli": "^3.0.8"
+    "webpack-cli": "^3.0.8",
+    "bitbar-webpack-progress-plugin": "^1.0.0"
+  },
+  "dependencies": {
+    "gsap": "^2.0.1"
   }
 }
