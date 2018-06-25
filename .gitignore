@@ -62,3 +62,16 @@ typings/
 
 # Output
 dist
+
+!node_modules/
+node_modules/*
+
+!node_modules/gsap
+node_modules/gsap/*
+
+!node_modules/gsap/umd
+node_modules/gsap/umd/*
+
+!node_modules/gsap/umd/CustomEase.js
+!node_modules/gsap/CustomEase.js
+!node_modules/gsap/index.js
